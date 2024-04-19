@@ -13,7 +13,7 @@
 
 ## Ressources à télécharger
 
-- Librairie : [Télécharger]()
+- Application : [Télécharger]()
 
 - Documentation : [Télécharger]()
 
