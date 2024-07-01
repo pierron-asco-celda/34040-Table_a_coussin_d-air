@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="34040-Table_a_coussin_d-air.exe" version="1.0.0.0" publicKeyToken="08df96a516f28b76" language="fr-FR" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="application_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="34040-Table_a_coussin_d-air" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="34040-Table_a_coussin_d-air.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="34040-Table_a_coussin_d-air.exe" size="893872">
+      <assemblyIdentity name="34040-Table_a_coussin_d-air" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JiEhxKxEJTC3SrLG8wHWd8ZzFxFCc9TeAmbcuBjqpvU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="34040-Table_a_coussin_d-air.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="application_icon.ico" size="129658">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M/LykqIcwhT6SWdk82AbwfTMC6O4eCUViCy6FFPj19w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PROD_01\pierr" issuerKeyHash="56e533fdf8908fd2e945f78631d98c1ccea2457b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ARehNDt6OW2vvPz1datLDLehu6KXr55onKF5pMTGFn4=</DigestValue></Reference></SignedInfo><SignatureValue>BsRgj08JB/GR+9EdCN/F9EwSTWquoAMYHKQZH0l6hlnpD4F+v0TzbHfO4Tbc1X5ceSZV/XKPOmAODM0W3A37qflYQ9LpHU9Fh2wTb0vK4KqBDHWOw3CD6x089hp0wjcsJdVDM708diUeDIVuK8GBDO5uE1Ggz9FXZT5J0cQLveM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ws5rvurKtg+wMNuXNQ1eBs0/T18jJWqxkCB3F7pwJ4Qwlna0v8NL9oWWmmFLfpPvtnvU+dreumPO4wJveMz2/FLWunldA1Tm0DpS0+NIjUNdUW38Uzjm2NWmn2K1rzglUXLC4nbxjIh9sxI3xhI8F1EgT7s7Rl7rFNr7mKlYE7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7e16c6c4a479a19c689eaf97a2bba1b70c4bab75f5fcbcaf6d397a3b34a11701" Description="" Url=""><as:assemblyIdentity name="34040-Table_a_coussin_d-air.exe" version="1.0.0.0" publicKeyToken="08df96a516f28b76" language="fr-FR" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PROD_01\pierr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>nZll+zyR9mT49IdMq/RPM/TS1BToHrzHpLt2j/bCtFI=</DigestValue></Reference></SignedInfo><SignatureValue>v0ALkqZKv+Pfea/v+FO+32t7J5supwrGtg8JhglmHcOn4Iu9pufKhpn/pMEytcAwix4tFfDJq2fSs7VIt+soG7C+TQSgrEDDbw6eoxL8rTSV9LYGTK6hf+zSN+yXtGDzqTYQv05j0hD7TNkLQTAm0APFvw7ouQVcLuSC33zFp4M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ws5rvurKtg+wMNuXNQ1eBs0/T18jJWqxkCB3F7pwJ4Qwlna0v8NL9oWWmmFLfpPvtnvU+dreumPO4wJveMz2/FLWunldA1Tm0DpS0+NIjUNdUW38Uzjm2NWmn2K1rzglUXLC4nbxjIh9sxI3xhI8F1EgT7s7Rl7rFNr7mKlYE7U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQYnHUxGB/lJpB/M5OxSURRjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUABSAE8ARABfADAAMQBcAHAAaQBlAHIAcjAeFw0yNDA1MzAxMjU1NDlaFw0yNTA1MzAxODU1NDlaMCUxIzAhBgNVBAMeGgBQAFIATwBEAF8AMAAxAFwAcABpAGUAcgByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCzmu+6sq2D7Aw25c1DV4GzT9PXyMlarGQIHcXunAnhDCWdrS/w0v2hZaaYUt+k++2e9T52t66Y87jAm94zPb8Uta6eV0DVObQOlLT40iNQ11RbfxTOObY1aafYrWvOCVRcsLidvGMiH2zEjfGEjwXUSBPuztGXusU2vuYqVgTtQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALv3sLzxLiwxjWw7pDR7J8/g08+ZvZd6OxcfpGe2x5G3k8737FxvnCIdkK8rLCwj5YDaa+t5IW+rA5Ovq3JA6zSJL2ZTFAgxIn/APZEamffR59SZ02ugdmFa1BCL4gkwvT4+T3nvPHkFColMqb3BG+eFwAPvU6eL1A7q/G8pYOM1</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
