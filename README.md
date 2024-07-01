@@ -11,23 +11,18 @@
 
 ## Caractéristiques techniques :
 
+-
+
+-
+
+-
+
 ## Ressources à télécharger
 
 - Application : [Télécharger]()
 
 - Documentation : [Télécharger]()
 
-## Programmes de démonstrations
-
-- *** :
-
-```cpp
-
-
-// NULL
-
-
-```
 
 #### À propos :
 <div align='center'>
